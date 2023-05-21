@@ -1,0 +1,52 @@
+[
+  {
+    "dayOfYear": "20-05-2023",
+    "numPanels": 2,
+    "data": [
+      {
+        "uuid": "d9b3d50b-6904-4a90-a63a-afd76b0c0d83",
+        "output": {
+          "hourOfTheDay": 21,
+          "entries": [
+            {
+              "solarEntries": [
+                {
+                  "solarOutput": 0,
+                  "timestamp": "2023-05-20T19:36:39.358Z"
+                },
+                {
+                  "solarOutput": 0,
+                  "timestamp": "2023-05-20T19:36:47.358Z"
+                }
+              ],
+              "hash": "e212163d4f3777807b5d204364f6d8f69d2682ab1ff65c59b3c46adf92e26754",
+              "zkSn": "UIy1ukfmIEnFGttYH/aUI+H4ckhwacBhQTiwRHHP46x4IyI7u2EYk1TmcAsUI6z7Iarn1bWFHVfgcSz3"
+            }
+          ]
+        }
+      },
+      {
+        "uuid": "46282b90-526e-463f-bbd8-23f0a5c1a9cd",
+        "output": {
+          "hourOfTheDay": 21,
+          "entries": [
+            {
+              "solarEntries": [
+                {
+                  "solarOutput": 0,
+                  "timestamp": "2023-05-20T19:36:39.358Z"
+                },
+                {
+                  "solarOutput": 0,
+                  "timestamp": "2023-05-20T19:36:47.358Z"
+                }
+              ],
+              "hash": "e212163d4f3777807b5d204364f6d8f69d2682ab1ff65c59b3c46adf92e26754",
+              "zkSn": "XETJGwhUBpDxdObWP8ha/2aera23l4Uyx9w6Q0j/AM/k+raxPCJ1uXQxuFWziAdzTWot58dfuByTexqE"
+            }
+          ]
+        }
+      }
+    ]
+  }
+]

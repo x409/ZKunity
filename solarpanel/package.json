@@ -1,0 +1,21 @@
+{
+  "name": "solarpanel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "solar.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "big-integer": "^1.6.51",
+    "circom": "^0.5.46",
+    "mocha": "^10.2.0",
+    "nodemon": "^2.0.22",
+    "snarkjs": "^0.6.11",
+    "uuid": "^9.0.0",
+    "zenroom": "^3.0.1"
+  }
+}

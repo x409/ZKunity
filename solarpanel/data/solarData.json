@@ -1,0 +1,424 @@
+[
+  {
+    "dayOfYear": "21-05-2023",
+    "numPanels": 2,
+    "data": [
+      {
+        "uuid": "caee4df3-7113-4012-85f8-bcabc622b4cc",
+        "output": {
+          "hourOfTheDay": 12,
+          "entries": [
+            {
+              "solarOutput": 1.6415734909523203,
+              "timestamp": "5/21/2023 12:53:31 PM"
+            },
+            {
+              "solarOutput": 1.6028986668042942,
+              "timestamp": "5/21/2023 12:54:01 PM"
+            },
+            {
+              "solarOutput": 1.506883893153641,
+              "timestamp": "5/21/2023 12:54:31 PM"
+            },
+            {
+              "solarOutput": 1.7438024429211736,
+              "timestamp": "5/21/2023 12:55:01 PM"
+            },
+            {
+              "solarOutput": 1.659659710577046,
+              "timestamp": "5/21/2023 12:55:31 PM"
+            },
+            {
+              "solarOutput": 1.6801026838112045,
+              "timestamp": "5/21/2023 12:56:01 PM"
+            },
+            {
+              "solarOutput": 1.6158651803311945,
+              "timestamp": "5/21/2023 12:56:31 PM"
+            },
+            {
+              "solarOutput": 1.570577018101047,
+              "timestamp": "5/21/2023 12:57:01 PM"
+            },
+            {
+              "solarOutput": 1.5231395381099537,
+              "timestamp": "5/21/2023 12:57:31 PM"
+            },
+            {
+              "solarOutput": 1.732896813723571,
+              "timestamp": "5/21/2023 12:58:01 PM"
+            },
+            {
+              "solarOutput": 1.7043358454121527,
+              "timestamp": "5/21/2023 12:58:31 PM"
+            },
+            {
+              "solarOutput": 1.5227662656151741,
+              "timestamp": "5/21/2023 12:59:01 PM"
+            },
+            {
+              "solarOutput": 1.6621735835761204,
+              "timestamp": "5/21/2023 12:59:31 PM"
+            },
+            {
+              "solarOutput": 1.9452477078887171,
+              "timestamp": "5/21/2023 1:00:01 PM"
+            },
+            {
+              "solarOutput": 1.9030530729928659,
+              "timestamp": "5/21/2023 1:00:31 PM"
+            },
+            {
+              "solarOutput": 1.7593419073752534,
+              "timestamp": "5/21/2023 1:01:01 PM"
+            },
+            {
+              "solarOutput": 1.9068893915312866,
+              "timestamp": "5/21/2023 1:01:31 PM"
+            },
+            {
+              "solarOutput": 1.7701267918388617,
+              "timestamp": "5/21/2023 1:02:01 PM"
+            },
+            {
+              "solarOutput": 1.9666857021871607,
+              "timestamp": "5/21/2023 1:02:31 PM"
+            },
+            {
+              "solarOutput": 1.939525211025956,
+              "timestamp": "5/21/2023 1:03:01 PM"
+            },
+            {
+              "solarOutput": 1.9146430882176948,
+              "timestamp": "5/21/2023 1:03:31 PM"
+            },
+            {
+              "solarOutput": 1.8248103990633155,
+              "timestamp": "5/21/2023 1:04:01 PM"
+            },
+            {
+              "solarOutput": 1.9526132644684242,
+              "timestamp": "5/21/2023 1:04:31 PM"
+            },
+            {
+              "solarOutput": 1.8453228727906004,
+              "timestamp": "5/21/2023 1:05:01 PM"
+            },
+            {
+              "solarOutput": 1.9472839538873183,
+              "timestamp": "5/21/2023 1:05:31 PM"
+            },
+            {
+              "solarOutput": 1.9753851794524613,
+              "timestamp": "5/21/2023 1:06:01 PM"
+            },
+            {
+              "solarOutput": 1.8665892249239406,
+              "timestamp": "5/21/2023 1:06:31 PM"
+            },
+            {
+              "solarOutput": 1.7789669515357476,
+              "timestamp": "5/21/2023 1:07:01 PM"
+            },
+            {
+              "solarOutput": 1.916514966419392,
+              "timestamp": "5/21/2023 1:07:31 PM"
+            },
+            {
+              "solarOutput": 1.8496346203592384,
+              "timestamp": "5/21/2023 1:08:01 PM"
+            },
+            {
+              "solarOutput": 1.8710439211891563,
+              "timestamp": "5/21/2023 1:08:31 PM"
+            },
+            {
+              "solarOutput": 1.8741840662791636,
+              "timestamp": "5/21/2023 1:09:01 PM"
+            },
+            {
+              "solarOutput": 1.7608337444286406,
+              "timestamp": "5/21/2023 1:09:31 PM"
+            },
+            {
+              "solarOutput": 1.9527881575531887,
+              "timestamp": "5/21/2023 1:10:01 PM"
+            },
+            {
+              "solarOutput": 1.9010221600811108,
+              "timestamp": "5/21/2023 1:10:31 PM"
+            },
+            {
+              "solarOutput": 1.9403641860483047,
+              "timestamp": "5/21/2023 1:11:01 PM"
+            },
+            {
+              "solarOutput": 1.7785660615035463,
+              "timestamp": "5/21/2023 1:11:31 PM"
+            },
+            {
+              "solarOutput": 1.9648898952652947,
+              "timestamp": "5/21/2023 1:12:01 PM"
+            },
+            {
+              "solarOutput": 1.9873872043967404,
+              "timestamp": "5/21/2023 1:12:31 PM"
+            },
+            {
+              "solarOutput": 1.9902696509258149,
+              "timestamp": "5/21/2023 1:13:01 PM"
+            },
+            {
+              "solarOutput": 1.8714230557780904,
+              "timestamp": "5/21/2023 1:13:31 PM"
+            },
+            {
+              "solarOutput": 1.8095313922987373,
+              "timestamp": "5/21/2023 1:14:01 PM"
+            },
+            {
+              "solarOutput": 1.8209691470961706,
+              "timestamp": "5/21/2023 1:14:31 PM"
+            },
+            {
+              "solarOutput": 1.8051879948282201,
+              "timestamp": "5/21/2023 1:15:01 PM"
+            },
+            {
+              "solarOutput": 1.7557675375268593,
+              "timestamp": "5/21/2023 1:15:31 PM"
+            },
+            {
+              "solarOutput": 1.9290035599948798,
+              "timestamp": "5/21/2023 1:16:01 PM"
+            },
+            {
+              "solarOutput": 1.8047655020814397,
+              "timestamp": "5/21/2023 1:16:31 PM"
+            },
+            {
+              "solarOutput": 1.8839299728263041,
+              "timestamp": "5/21/2023 1:17:01 PM"
+            },
+            {
+              "solarOutput": 1.7620027724118748,
+              "timestamp": "5/21/2023 1:17:31 PM"
+            },
+            {
+              "solarOutput": 1.7800962652466172,
+              "timestamp": "5/21/2023 1:18:01 PM"
+            }
+          ]
+        }
+      },
+      {
+        "uuid": "a7aae2c3-a907-4892-88cc-3e67d2433b9f",
+        "output": {
+          "hourOfTheDay": 12,
+          "entries": [
+            {
+              "solarOutput": 1.6648752205174775,
+              "timestamp": "5/21/2023 12:53:31 PM"
+            },
+            {
+              "solarOutput": 1.6110813226789096,
+              "timestamp": "5/21/2023 12:54:01 PM"
+            },
+            {
+              "solarOutput": 1.6257153439839305,
+              "timestamp": "5/21/2023 12:54:31 PM"
+            },
+            {
+              "solarOutput": 1.6836512020181227,
+              "timestamp": "5/21/2023 12:55:01 PM"
+            },
+            {
+              "solarOutput": 1.5887196741148297,
+              "timestamp": "5/21/2023 12:55:31 PM"
+            },
+            {
+              "solarOutput": 1.6545433547532573,
+              "timestamp": "5/21/2023 12:56:01 PM"
+            },
+            {
+              "solarOutput": 1.7498167780187475,
+              "timestamp": "5/21/2023 12:56:31 PM"
+            },
+            {
+              "solarOutput": 1.5792779296920396,
+              "timestamp": "5/21/2023 12:57:01 PM"
+            },
+            {
+              "solarOutput": 1.6771208927679337,
+              "timestamp": "5/21/2023 12:57:31 PM"
+            },
+            {
+              "solarOutput": 1.5055148115526087,
+              "timestamp": "5/21/2023 12:58:01 PM"
+            },
+            {
+              "solarOutput": 1.7137630300695126,
+              "timestamp": "5/21/2023 12:58:31 PM"
+            },
+            {
+              "solarOutput": 1.6974817523207386,
+              "timestamp": "5/21/2023 12:59:01 PM"
+            },
+            {
+              "solarOutput": 1.642575502144164,
+              "timestamp": "5/21/2023 12:59:31 PM"
+            },
+            {
+              "solarOutput": 1.9270469214951313,
+              "timestamp": "5/21/2023 1:00:01 PM"
+            },
+            {
+              "solarOutput": 1.9848339512875048,
+              "timestamp": "5/21/2023 1:00:31 PM"
+            },
+            {
+              "solarOutput": 1.9397951135986098,
+              "timestamp": "5/21/2023 1:01:01 PM"
+            },
+            {
+              "solarOutput": 1.9114181929857148,
+              "timestamp": "5/21/2023 1:01:31 PM"
+            },
+            {
+              "solarOutput": 1.8454048876189277,
+              "timestamp": "5/21/2023 1:02:01 PM"
+            },
+            {
+              "solarOutput": 1.9548922010708734,
+              "timestamp": "5/21/2023 1:02:31 PM"
+            },
+            {
+              "solarOutput": 1.7855004136834347,
+              "timestamp": "5/21/2023 1:03:01 PM"
+            },
+            {
+              "solarOutput": 1.8972260684241222,
+              "timestamp": "5/21/2023 1:03:31 PM"
+            },
+            {
+              "solarOutput": 1.8775786563032308,
+              "timestamp": "5/21/2023 1:04:01 PM"
+            },
+            {
+              "solarOutput": 1.8637746639266732,
+              "timestamp": "5/21/2023 1:04:31 PM"
+            },
+            {
+              "solarOutput": 1.9144651514309567,
+              "timestamp": "5/21/2023 1:05:01 PM"
+            },
+            {
+              "solarOutput": 1.876278128839885,
+              "timestamp": "5/21/2023 1:05:31 PM"
+            },
+            {
+              "solarOutput": 1.9155991913388368,
+              "timestamp": "5/21/2023 1:06:01 PM"
+            },
+            {
+              "solarOutput": 1.986142700450253,
+              "timestamp": "5/21/2023 1:06:31 PM"
+            },
+            {
+              "solarOutput": 1.9150793037170462,
+              "timestamp": "5/21/2023 1:07:01 PM"
+            },
+            {
+              "solarOutput": 1.9643261387173625,
+              "timestamp": "5/21/2023 1:07:31 PM"
+            },
+            {
+              "solarOutput": 1.7736300422461513,
+              "timestamp": "5/21/2023 1:08:01 PM"
+            },
+            {
+              "solarOutput": 1.9476789135573822,
+              "timestamp": "5/21/2023 1:08:31 PM"
+            },
+            {
+              "solarOutput": 1.8764925362490106,
+              "timestamp": "5/21/2023 1:09:01 PM"
+            },
+            {
+              "solarOutput": 1.927573869711691,
+              "timestamp": "5/21/2023 1:09:31 PM"
+            },
+            {
+              "solarOutput": 1.898468431373872,
+              "timestamp": "5/21/2023 1:10:01 PM"
+            },
+            {
+              "solarOutput": 1.86973325817544,
+              "timestamp": "5/21/2023 1:10:31 PM"
+            },
+            {
+              "solarOutput": 1.789501564580312,
+              "timestamp": "5/21/2023 1:11:01 PM"
+            },
+            {
+              "solarOutput": 1.9077288085467243,
+              "timestamp": "5/21/2023 1:11:31 PM"
+            },
+            {
+              "solarOutput": 1.9703647974132539,
+              "timestamp": "5/21/2023 1:12:01 PM"
+            },
+            {
+              "solarOutput": 1.9189206881325958,
+              "timestamp": "5/21/2023 1:12:31 PM"
+            },
+            {
+              "solarOutput": 1.7824981654665273,
+              "timestamp": "5/21/2023 1:13:01 PM"
+            },
+            {
+              "solarOutput": 1.826812120586782,
+              "timestamp": "5/21/2023 1:13:31 PM"
+            },
+            {
+              "solarOutput": 1.7810166605708981,
+              "timestamp": "5/21/2023 1:14:01 PM"
+            },
+            {
+              "solarOutput": 1.90817999730243,
+              "timestamp": "5/21/2023 1:14:31 PM"
+            },
+            {
+              "solarOutput": 1.827606941341687,
+              "timestamp": "5/21/2023 1:15:01 PM"
+            },
+            {
+              "solarOutput": 1.8698585089458823,
+              "timestamp": "5/21/2023 1:15:31 PM"
+            },
+            {
+              "solarOutput": 1.968383344173619,
+              "timestamp": "5/21/2023 1:16:01 PM"
+            },
+            {
+              "solarOutput": 1.901659711820368,
+              "timestamp": "5/21/2023 1:16:31 PM"
+            },
+            {
+              "solarOutput": 1.9224790226389834,
+              "timestamp": "5/21/2023 1:17:01 PM"
+            },
+            {
+              "solarOutput": 1.7572838882483954,
+              "timestamp": "5/21/2023 1:17:31 PM"
+            },
+            {
+              "solarOutput": 1.8364419714929758,
+              "timestamp": "5/21/2023 1:18:01 PM"
+            }
+          ]
+        }
+      }
+    ]
+  }
+]

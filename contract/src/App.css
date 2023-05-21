@@ -1,0 +1,372 @@
+* {
+  box-sizing: border-box;
+}
+#root {
+  min-width: 300px;
+}
+
+body {
+  color: white;
+  background-color: #202124;
+  background-image: url('./images/background.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  min-width: 100vw;
+  max-width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  overflow-y: hidden; /* Hide vertical scrollbar */
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+
+.App {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-auto-rows: minmax(100px, auto);
+  grid-gap: 1em;
+  min-width: 100vw;
+  min-height: 100vh;
+  max-width: 100vw;
+  max-height: 100vh;
+  overflow: scroll;
+}
+
+.notification {
+  grid-column: 1/8;
+  grid-row: 1/2;
+  color: white; 
+  width: 80vw;
+  height: 24px;
+  padding: 1rem;
+}
+
+/* ***************** LOGOS ***************** */
+
+.swimLogo {
+  grid-column: 2/9;
+  grid-row: 1/2;
+  justify-self: right;
+  width: 200px;
+  padding-top: 2vh;
+  transition: all .5s;
+  z-index: 9998;
+}
+
+.bassyLogo {
+  grid-column: 1/9;
+  grid-row: 2/4;
+  justify-self: center;
+  margin-top: -13vh;
+  transition: all .5s;
+  max-width: 95vw;
+  width: 30%;
+}
+
+/* ***************** Network Message ***************** */
+#network {
+  grid-column: 4/6;
+  grid-row:4/5;
+  justify-self: center;
+  align-self: center;
+  margin-top: -9vh;
+}
+
+.network p {
+  width: 100vw;
+  padding: 0;
+  margin: 0;
+  font-size: 1rem;
+  color: white;
+  text-align: center;
+ }
+
+/* ***************** Albums ***************** */
+.albums {
+  grid-column: 1/9;
+  grid-row: 4/8;
+  align-self: center;
+}
+/* ***************** WHITELIST PAGE ***************** */
+.whitelist {
+  grid-column: 2/8;
+  grid-row:5/8;
+  width: 100%;
+  justify-self: center;
+  transition: all .5s ease;
+}
+
+.whitelist .message {
+  padding: 0;
+  margin: -5vh 0 0;
+  font-size: 1rem;
+  color: white;
+  text-align: center;
+ }
+
+.whitelist .form {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  width: 40%;
+  margin: 0 auto;
+  min-width: 300px;
+  transition: width .75s ease;
+}
+
+.whitelist .fGroup {
+  display: flex;
+  flex-direction: column;
+}
+
+.whitelist input {
+  width: 98%;
+  padding: 3% 0;
+  margin: .5vh 1%;
+  text-align: center;
+  border-radius: 5px;
+  outline: none;
+}
+
+.whitelist input:active {
+  outline: none;
+}
+
+.whitelist input::placeholder {
+  color: rgb(159, 158, 158);
+}
+
+.whitelist .account::placeholder {
+  color: lightgrey;
+  cursor: not-allowed;
+  outline: none;
+}
+
+.whitelist .account:active,
+.whitelist .account:hover {
+  cursor: not-allowed;
+  outline: none;
+}
+
+.whitelist .endForm {
+  margin: .5vh 1% 1% 1%;
+  display: flex;
+}
+
+.endForm * {
+  flex-grow: 1;
+  max-width: 99%;
+  min-width: 50%;
+  border-radius: 5px;
+}
+
+.whitelist .submitBtn {
+  border: none;
+  border-radius: 5px;
+  margin-bottom: .5%;
+}
+
+.whitelist .submitBtn:hover {
+  background-color: transparent;
+}
+
+.whitelist .submitBtn:active {
+  font-size: .8rem;
+  background-color: #B14542;
+}
+
+/* ***************** MINT PAGE ***************** */
+
+.mint {
+  grid-column: 2/8;
+  grid-row:5/8;
+  width: 100%;
+  justify-self: center;
+  transition: all 2s;
+}
+
+.mint h1 {
+  text-align: center;
+  color: white
+}
+
+.card {
+  background: transparent !important;
+  color: white;
+}
+
+.mint input {
+  background-color: transparent;
+  color: white;
+  border-radius: 5px;
+  padding-left: 1vw;
+}
+
+input[type=number]::-webkit-inner-spin-button {
+  opacity: 1;
+}
+
+.mintBtn {
+  background-color: #B14542 !important;
+  border: none !important;
+}
+
+.mintBtn:focus,
+.mintBtn:active {
+  border: none !important;
+  outline: none !important;
+}
+
+/* ***************** FOOTER ***************** */
+
+.social {
+  display: grid;
+  grid-column: 1/9;
+  grid-row:8/9;
+  z-index: 9999;
+  max-width: 100vw;
+}
+
+.social .socialBtns {
+  justify-self: center;
+}
+
+.social .socialBtns a {
+  padding: .9rem 1.5rem;
+  border: 1px solid #B14542;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+  text-decoration: none;
+  margin: 0 1vw;
+  width: auto;
+}
+
+.socialBtns a:hover {
+  background-color: #B14542;
+}
+
+.socialIcons {
+  display: flex;
+  justify-content: center;
+  margin: 2vh 0;
+}
+
+.socialIcons a .icon {
+  color: white;
+  font-size: 3em;
+  margin: 0 1vw;
+  padding: .5vh .5vw;
+}
+
+.socialIcons a:hover .icon {
+  border: 1px solid #B14542;
+  border-radius: 5px;
+  margin: 0 1vw;
+}
+
+
+/* ***************** MEDIA QUERIES ***************** */
+
+@media (max-width: 1440px) {
+
+  .bassyLogo {
+    width: 40%;
+  }
+
+  .whitelist .form{
+    width: 50%;
+  }
+  
+}
+
+@media (max-width: 1200px) {
+
+  .bassyLogo {
+    margin-top: 3vh;
+    width: 50%;
+  }
+
+  .whitelist .form{
+    width: 60%;
+  }
+  
+}
+
+
+@media (max-width: 950px) {
+  .bassyLogo {
+    width: 60%;
+  }
+
+  .whitelist .form{
+    width: 80%;
+  }
+  
+}
+
+@media (max-width: 750px) {
+  .bassyLogo {
+    width: 70%;
+  }
+
+
+  .whitelist .form{
+    width: 100%;
+  }
+}
+
+@media (max-width: 550px) {
+
+  .notification { 
+    grid-column: 1/9;
+    text-align: center;
+    justify-self: center;
+  }
+
+  .swimLogo {
+    grid-column: 1/9;
+    grid-row: 1/3;
+    align-self: center;
+    justify-self: center;
+    margin: 0;
+    padding: 0;
+  }
+
+  .whitelist {
+    grid-column: 2/8;
+    grid-row: 4/7;
+    margin-top: 5vh;
+    padding: 0 1vw;
+  }
+}
+
+@media (max-width: 420px) {
+
+  .whitelist .endForm {
+    flex-direction: column;
+  }
+
+  .whitelist .endForm * {
+    flex-grow: 1;
+    min-width: 100%;
+    margin: 0 auto;
+    margin-bottom: .5vh;
+  }
+
+  .whitelist button {
+    height: 74px;
+  }
+}
+
+@media (max-width: 420px) {
+
+  
+}
